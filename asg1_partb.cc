@@ -25,7 +25,7 @@ static NetDeviceContainer g_ueDevs;
 static std::map<uint16_t, uint8_t> g_ueMcs;
 static std::map<std::pair<uint64_t, uint32_t>, int> g_pred;
 static std::ofstream g_dumpFile;
-static std::string g_studentTag = "Student_2111EC015";
+static std::string g_studentTag = "Asmit_2111EC015";
 
 void DlSchedTrace(DlSchedulingCallbackInfo info)
 {
